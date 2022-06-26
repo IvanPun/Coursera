@@ -1,7 +1,6 @@
 .container { 
-  height: 20%;
+  block-size: 100px;
   position: relative;
-  border: 3px solid white; 
 }
 
 .center {
@@ -15,4 +14,64 @@
 
 .big-title{
 	font-size: 175%;
+}
+
+/*disktop view*/
+@media (min-width: 992px){
+	.card{
+		width: 29%; 
+	}
+}
+
+/*tablet view*/
+@media (max-width: 991px){
+	.card{
+		width: 45%; 
+	}
+}
+
+/*moblie view*/
+@media (max-width: 767px){
+	.card{
+		width: 96%; 
+	}
+}
+
+
+.card{
+	position: relative;
+	float: left;
+	border: 1px solid black;
+	margin: 2%;
+	background-color: #E0AFEF;
+
+}
+
+.card-body{
+	padding: 2.5%;
+}
+
+.card-title{
+	position: absolute;
+	top: -18px;
+	right: -1px;
+	border: 1px solid black;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+#sushi{
+	background-color: #2300D0;
+	color: white;
+}
+
+#beef{
+	background-color: #B20303;
+	color: white;
+}
+
+#chicken{
+	background-color: #16A206;
+	color: white;
+}
 }
