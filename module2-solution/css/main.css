@@ -28,6 +28,9 @@
 	.card{
 		width: 45%; 
 	}
+	.card-3{
+		width: 96%;
+	}
 }
 
 /*moblie view*/
