@@ -1,0 +1,44 @@
+.container-fluid{
+	padding: 15px;
+	width: 100%;
+}
+
+.container-fluid h3{ /* company-name */ 
+	margin-left: 10px;
+	color: white;
+}
+
+@media (min-width: 576px){
+	.navbar-expand-sm #navbarNav{
+		display: none!important;
+	}
+}
+
+@media (max-width: 576px){
+	.row{
+		margin: 15px 10% 0;
+	}
+}
+
+.nav-item{
+	text-align: center;
+}
+
+.nav-link{
+	color: white;
+	background-color: #F09212;
+	font-size: 18px;
+}
+
+.text-center{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
